@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bglogo_03"
+    tools:context=".Activitys.AdminContactUsActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logotext_02"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:text="@string/contact_us"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:layout_marginTop="15dp"
+        android:id="@+id/admcontactusname"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@drawable/shape1"
+        android:textColorHint="@color/black"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mobile"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape1"
+        android:id="@+id/admcontactusnumber"
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:textColorHint="@color/black"
+        android:drawablePadding="10dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="@string/message"
+        android:background="@drawable/shape1"
+        android:layout_marginTop="15dp"
+        android:id="@+id/admcontactusmessage"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="15sp"
+        android:textColorHint="@color/black"
+        android:drawablePadding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/admcontectus_errormessage"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:layout_marginRight="20dp"
+        android:id="@+id/admcontactussubmit"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/buttoncolor"/>
+
+
+
+</LinearLayout>

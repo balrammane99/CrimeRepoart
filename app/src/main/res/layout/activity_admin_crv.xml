@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    android:background="@drawable/bglogo_03"
+    tools:context=".Activitys.Admin_CRV_Activity">
+
+<!--    <TextView-->
+<!--        android:id="@+id/complentby"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15sp"-->
+<!--        android:text="@string/complent_by"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold" />-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/complentPN"-->
+<!--        android:layout_below="@+id/complentby"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Complent Person Name"-->
+<!--      />-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/complentPE"-->
+<!--        android:layout_below="@+id/complentPN"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:text="Complent Person Email"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/complentPM"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/complentPE"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:text="Complent Person Mobile Number" />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/view1"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:id="@+id/cmy_llout1"
+        android:layout_below="@+id/view1"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:layout_height="wrap_content"
+            android:text="Status :"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".7"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textSize="20sp"
+            android:id="@+id/adm_update_status"
+            android:textColor="@color/purple_500"
+           />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Commentes"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:id="@+id/commenttext"
+        android:layout_below="@+id/cmy_llout1"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/view2"
+        android:layout_below="@+id/commenttext"
+        android:layout_marginTop="5dp"
+        android:background="@color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Adm_Cmt_rv"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view2"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="80dp" />
+
+    <Button
+        android:id="@+id/Adm_update_cmt_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Add Update"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

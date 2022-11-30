@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name"> E Crime Repoart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_wait_loading">Please Wait Loading...!</string>
+    <string name="crime_repoart">CRIME REPOART</string>
+    <string name="back">Back To Login?</string>
+    <string name="submit">Submit</string>
+    <string name="email">Email</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="change_password">Change Password</string>
+    <string name="term_and_condition">Term and Condition</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+    <string name="full_name">Full Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="address">Address</string>
+    <string name="password">Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="read_more">...ReadMore</string>
+    <string name="read_less">Readless....</string>
+    <string name="message">Message</string>
+    <string name="name">Full Name</string>
+    <string name="register">Public Register</string>
+    <string name="city">City</string>
+    <string name="login">Login</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="public_login">Public Login</string>
+    <string name="complent_by">Complent By :</string>
+
+
+    <string-array name="Crimes">
+        <item>Select</item>
+        <item>Crime</item>
+        <item>Missing</item>
+        <item>Women Sefty</item>
+        <item>Thieft</item>
+        <item>Accident</item>
+
+    </string-array>
+
+    <string-array name="InvestagitionUpdate">
+        <item>Select</item>
+        <item>In Progress</item>
+        <item>Completed</item>
+
+
+    </string-array>
+
+</resources>

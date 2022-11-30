@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Login"
+        android:title="Login"
+        android:icon="@drawable/lock"
+        />
+    <item
+        android:id="@+id/Register"
+        android:title="Register"
+        android:icon="@drawable/person"
+        />
+    <item
+        android:id="@+id/Admin"
+        android:title="Admin Login"
+        android:icon="@drawable/lock"
+        />
+</menu>

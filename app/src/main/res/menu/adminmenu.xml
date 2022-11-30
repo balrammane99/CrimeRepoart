@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/adminCrime"
+        android:title="Crime"
+        android:icon="@drawable/police2"
+        />
+    <item
+        android:id="@+id/adminMyAccount"
+        android:title="My Account"
+        android:icon="@drawable/account"
+        />
+</menu>

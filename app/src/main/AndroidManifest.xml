@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.intellicloudpps.crimerepoart">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pxcircle"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@drawable/pxcircle"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CrimeRepoart">
+        <activity
+            android:name=".Activitys.AdminCommentUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.Admin_CRV_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.AdminContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.AdminUpdateProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.AdminChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.AdminPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.UpdateProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.ContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.CustomerPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="com.iphonik.chameleon.AppPreferenceActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+<!--    android:theme="@style/Theme.AppCompat.Light.NoActionBar"-->

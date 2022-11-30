@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Activitys.AdminUpdateProfileActivity">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logotext_02"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_profile"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/full_name"
+        android:background="@drawable/shape1"
+
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/admupdateprofullname"
+        android:padding="20dp"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mobile"
+        android:background="@drawable/shape1"
+        android:id="@+id/admupdatprofmobile"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:maxLength="10"
+        android:inputType="number"
+        tools:ignore="LabelFor" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/address"
+        android:background="@drawable/shape1"
+        android:id="@+id/admupdateprofaddress"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:inputType="textPostalAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:background="@drawable/shape1"
+        android:id="@+id/admupdateprofemail"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:id="@+id/admupdateprofpassword"
+        android:layout_marginHorizontal="10dp"
+        android:drawableRight="@drawable/visibilityoff"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:background="@drawable/shape1"
+        android:inputType="textWebPassword"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/admupdateprofile_errormessage"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:layout_margin="5dp"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:layout_marginRight="20dp"
+        android:id="@+id/admupdateprofilesubmit"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/buttoncolor"/>
+
+
+
+</LinearLayout>

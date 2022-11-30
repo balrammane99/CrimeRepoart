@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/accardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="10dp"
+        android:padding="10dp"
+        app:cardCornerRadius="15dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".6"
+                    android:layout_height="wrap_content"
+                    android:text="Id"
+                    android:textColor="@color/black"
+                    android:id="@+id/adm_vac_styleId"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".4"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+
+                    android:textColor="@color/purple_500"
+                    android:id="@+id/adm_vac_stylestatus"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textColor="@color/purple_500"
+                android:id="@+id/adm_vac_styletitle"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:id="@+id/adm_vac_styledescription"
+                android:textSize="18dp"/>
+            <TextView
+                android:id="@+id/adm_vac_readmore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:textSize="15dp"
+                android:text="@string/read_more"
+                android:layout_gravity="right"
+                android:paddingRight="5dp"
+                android:visibility="gone"
+                android:paddingLeft="5dp"
+                android:background="@color/white"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp" />
+            <TextView
+                android:id="@+id/adm_vac_readless"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:textSize="15dp"
+                android:text="@string/read_less"
+                android:visibility="gone"
+                android:background="@color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".4"
+                    android:layout_height="wrap_content"
+                    android:text="Crime Date "
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".7"
+                    android:layout_height="wrap_content"
+                    android:text="Crime Date"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/adm_vac_stylecrimedate"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".4"
+                    android:layout_height="wrap_content"
+                    android:text="Complent Date"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".7"
+                    android:layout_height="wrap_content"
+                    android:text="Complent Date"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/adm_vac_stylecomplentdate"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Category"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="complent"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:id="@+id/adm_vac_stylecategory"
+                        android:textSize="18dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Area"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Area name"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:id="@+id/adm_vac_stylearea"
+                        android:textSize="18dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PinCode"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pincode"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:id="@+id/adm_vac_stylepincode"
+                        android:textSize="18dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/complentPM"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+            <TextView
+                android:id="@+id/complentby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:text="@string/complent_by"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/complentPN"
+                android:layout_below="@+id/complentby"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Complent Person Name"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/complentPE"
+                android:layout_below="@+id/complentPN"
+                android:layout_marginStart="10dp"
+                android:text="Complent Person Email"
+                />
+
+            <TextView
+                android:id="@+id/complentPM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/complentPE"
+                android:layout_marginStart="10dp"
+                android:text="Complent Person Mobile Number" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:id="@+id/view1"
+                android:layout_below="@+id/complentPM"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="view report   "
+              android:layout_marginTop="10dp"
+              android:textStyle="bold"
+              android:gravity="right"
+              android:id="@+id/adm_fvr_textbtn"
+              android:layout_marginRight="10dp"
+              android:textColor="@color/purple_500"
+              android:drawableRight="@drawable/arrow_forward"
+              android:padding="5dp"
+
+              android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
